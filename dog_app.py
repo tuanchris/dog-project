@@ -7,7 +7,6 @@ from keras.models import Sequential
 from keras.applications.resnet50 import preprocess_input, decode_predictions
 from keras.applications.resnet50 import ResNet50
 import cv2
-import matplotlib.pyplot as plt
 import pickle
 import sys
 import warnings

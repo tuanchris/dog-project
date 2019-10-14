@@ -27,12 +27,23 @@ cd dog-project
 ```
 
 2. Install required packages
-```
-conda create --name dog-project python=2.7
-source activate dog-project
-pip install -r requirements.txt
-```
 
+* Linux or Mac:
+```
+conda create --name dog-project python=3.5
+source activate dog-project
+pip install -r requirements/requirements.txt
+```
+* NOTE: Some Mac users may need to install a different version of OpenCV
+```
+conda install --channel https://conda.anaconda.org/menpo opencv3
+```
+* Windows:
+```
+conda create --name dog-project python=3.5
+activate dog-project
+pip install -r requirements/requirements.txt
+```
 3. Dog breed/human detection
 ```
 python dog_app.py /path/to/image
