@@ -28,7 +28,7 @@ cd dog-project
 
 2. Install required packages
 
-* Linux or Mac:
+* **Linux or Mac**:
 ```
 conda create --name dog-project python=3.5
 source activate dog-project
@@ -38,7 +38,7 @@ pip install -r requirements/requirements.txt
 ```
 conda install --channel https://conda.anaconda.org/menpo opencv3
 ```
-* Windows:
+* **Windows**:
 ```
 conda create --name dog-project python=3.5
 activate dog-project
